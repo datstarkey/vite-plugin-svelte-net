@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "es2022",
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "outDir": "./dist/",
+    "declaration": true,
+    "strict": true,
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "types": ["node"]
+  },
+  "files": ["./src/index.ts"],
+  "exclude": ["dist", "node_modules"],
+  "include": ["test/**/*.ts", "src/**/*.ts"]
+}

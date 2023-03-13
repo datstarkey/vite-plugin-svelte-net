@@ -1,0 +1,43 @@
+{
+  "name": "vite-plugin-svelte-net",
+  "version": "0.0.1",
+  "description": "Vite plugin for use with Asp.net Svelte.Net package",
+  "author": "datstarkey",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --module ESNEXT --outDir dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datstarkey/vite-plugin-svelte-net.git"
+  },
+  "keywords": [
+    "vite-plugin",
+    "sveltenet",
+    "aspnet",
+    "c#"
+  ],
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/datstarkey/vite-plugin-svelte-net/issues"
+  },
+  "homepage": "https://github.com/datstarkey/vite-plugin-svelte-net#readme",
+  "peerDependencies": {
+    "svelte": ">=3.55.1",
+    "vite": ">=2.0.0"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.0.0",
+    "@types/estree": "^1.0.0",
+    "glob": "^9.0.1",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.4",
+    "svelte": "^3.55.1"
+  }
+}
